@@ -1,0 +1,24 @@
+{
+  "name": "upi-payment-gateway",
+  "version": "1.0.0",
+  "description": "A simple UPI Payment Gateway using Node.js and Express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "upi",
+    "payment",
+    "gateway",
+    "nodejs",
+    "express"
+  ],
+  "author": "sabariyy",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.4",
+    "qrcode": "^1.5.1"
+  }
+}
